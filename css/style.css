@@ -125,7 +125,7 @@ p {
     background: var(--icongrayy);
     border-radius: 5px;
     z-index: 1;
-    transform-origin: 3px 0px;
+    transform-origin: 2px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
 }
 
@@ -145,6 +145,7 @@ p {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
+    opacity: 0.5;
 }
 
 .as-mobile-menu #menuToggle input:checked~span:nth-last-child(3) {
